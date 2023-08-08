@@ -141,3 +141,13 @@ textarea::-webkit-scrollbar-thumb {
     /* top: 3%; */
     /* left: 64%; */
 }
+@media (max-width: 768px) {
+    .searchBar {
+        height: auto; /* Allow height to adjust based on content */
+    }
+    
+    .searchBar input {
+        width: 100%; /* Full width for smaller screens */
+        height: 30px; /* Adjust height as needed */
+    }
+}
