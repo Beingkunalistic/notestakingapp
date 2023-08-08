@@ -76,17 +76,16 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 #btn {
-    position: fixed;
-    top: 3%;
-    left: 28%;
+    cursor: pointer;
     width: 100px;
-    padding: 3px;
+    padding: 1px;
     background-color: rgb(27, 26, 26);
     color: white;
-    /* border: 1px solid white; */
+    border: 1px solid rgb(125, 122, 122);
     font-size: 15px;
+    
 }
-
+ 
 .succ-msg {
     position: fixed;
     bottom: 20%;
@@ -100,15 +99,26 @@ textarea::-webkit-scrollbar-thumb {
     transition: opacity 1.5s ease;
 }
 
+.funcs-note{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap:20px;
+}
+
 .searchBar {
-    position: fixed;
+    /* position: fixed;
     top: 30px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
     width: 400px;
     height: 40px;
     border: 1px solid rgb(125, 122, 122);
     border-radius: 10px;
+}
+
+.searchBar:active{
+    border:1px rgb(227, 212, 212);
 }
 
 
@@ -126,8 +136,8 @@ textarea::-webkit-scrollbar-thumb {
 
 .searchIcon {
     color: rgb(222, 216, 216);
-    /* z-index: 0; */
-    position: fixed;
-    top: 31%;
-    left: 93%;
+    margin-left: 10px;
+    /* position: fixed; */
+    /* top: 3%; */
+    /* left: 64%; */
 }
